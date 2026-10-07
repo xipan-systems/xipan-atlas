@@ -19,7 +19,7 @@
  *   command/interlock logic for the NightWarden integration project.
  *
  * Safety Notice:
- *   DEVELOPMENT SOFTWARE — NOT APPROVED FOR FLIGHT.
+ *   DEVELOPMENT SOFTWARE — NOT APPROVED FOR LIVE FLIGHT.
  *   Verification, hardware-in-the-loop testing, system safety analysis,
  *   and applicable airworthiness/certification activities are required
  *   before operational deployment.
