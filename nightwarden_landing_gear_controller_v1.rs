@@ -1,18 +1,22 @@
 /*
- * XIPAN FLIGHT SYSTEMS
- * NIGHTWARDEN INTEGRATED FLIGHT CONTROL SYSTEM
+ * (( XIPAN HEAVY INDUSTRIES ))
  *
- * Module:          NW_01_RLG_CONTROL_INTG
- * Component:       Retractable Landing Gear (RLG) Control
- * Software Unit:   Landing Gear Control State Machine
- * Project:         NIGHTWARDEN - INTG
+ * System Type:      High Altitude Pseudo Satellite 
+ * Module:           NW_01_RLG_CONTROL_INTG
+ * Component:        Retractable Landing Gear (RLG) Control
+ * Software Unit:    Landing Gear Control State Machine
+ * Project:          NIGHTWARDEN
+ * Function:         SIGINT / COMMS
+ * Payload Type:     COMMS
+ * Tactical Type:    C6ISR [ C2-DMZ ] 
  *
- * Author:          Goutham Reddy
- * Created:         02-Aug-2026
- * Language:        Rust / no_std
  *
- * Classification: INTERNAL
- * Lifecycle State: DEVELOPMENT
+ * Author:           Goutham Reddy
+ * Created:          02-Aug-2026
+ * Language:         Rust / no_std
+ * 
+ * Classification:   MILGRADE ( CLANDESTINE )
+ * Lifecycle State:  DEVELOPMENT
  *
  * Purpose:
  *   Implements the landing-gear control state machine and associated
@@ -28,6 +32,7 @@
  *                     LANDING GEAR CONTROL
  * --------------------------------------------------------------------
  */
+
 #![no_std]
 
 #[derive(Clone, Copy, PartialEq)]
@@ -129,3 +134,6 @@ fn all_up_locked(s: &Sensors) -> bool {
         && s.right_up_lock
         && s.nose_up_lock
 }
+
+
+/* (( XIPAN HEAVY INDUSTRIES )) APPROVED FOR PUBLIC RELEASE NOTES / DECLASSIFIED */
